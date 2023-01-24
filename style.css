@@ -1,0 +1,87 @@
+main{
+      background-color: #EEF;
+      margin: 20px;
+      border-radius: 25px;
+      padding: 10px 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Righteous";
+}
+p, li {
+      font-family: "Oswald";
+      font-size: 1.1em;
+}
+.part1{
+      text-align: center;
+}
+.part1 img{
+      border: 7px solid black;
+      border-radius: 6px;
+}
+.text-primary{
+      color: #1E1EBE;
+}
+/* .row1{
+      border: 1px solid red;
+} */
+.row1 .part2{
+      display: flex;
+      /* border: 1px  solid red; */
+      justify-content: center;
+      margin:20px 0px;
+}
+.row1 .part2 .box{
+      border: 6px solid black;
+      color: #1E1EBE;
+      background-color: white;
+      width: 250px;
+      margin: 0px 20px;
+      padding:26px;
+      font-size: 27px;
+      font-family: "Righteous";
+      text-align: center;
+}
+.row2{
+      border-radius: 25px;
+      background-color: white;
+      padding: 20px 10px;
+      margin-bottom: 30px;
+}
+.row2 h1{
+      color: #1E1EBE;
+      text-align: center;
+      font-weight: lighter;
+}
+.r2-part1{
+      display: flex;
+}
+.r2-part1 .photo{
+      width: 50%;
+}
+.r2-part1 img{
+      width:100%;
+}
+.r2-part1 .info{
+      width: 50%;
+      padding:10px;
+}
+.award-year{
+      font-family: "Oswald";
+      background-color: rgb(245, 245, 245);
+      border: 1px solid gray;
+      padding: 10px 10px;
+      margin:5px 0px;
+}
+.award-list{
+      background-color: white;
+      border: 1px solid gray;
+}
+.row3{
+      border-radius: 25px;
+      background-color: white;
+      padding: 20px 20px;
+}
+.row3 h1{
+      text-align: center;
+      color: #1E1EBE;
+}
